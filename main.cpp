@@ -31,8 +31,5 @@ int main()
         system("start \"why\" cmd /C \"color 04 && echo why && timeout 1\"");
         system("start \"sorry\" cmd /C \"color 40 && echo sorry && timeout 1\"");
     }
-
-    system("start cmd /C \"timeout 10 && cd .. && del qsvir /Q /S \"");
-    //system("rmdir qsvir /S /Q");
     return 0;
 }
