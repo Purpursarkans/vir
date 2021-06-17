@@ -26,7 +26,7 @@ int main()
     );
     system(zaglushka);
 
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i < 17; i++)
     {
         system("start \"why\" cmd /C \"color 04 && echo why && timeout 1\"");
         system("start \"sorry\" cmd /C \"color 40 && echo sorry && timeout 1\"");
